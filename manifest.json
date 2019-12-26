@@ -1,0 +1,14 @@
+{
+	"name": "ju-bookmarks",
+	"version": "1.0",
+	"permissions": ["tabs", "storage"],
+	"browser_action": {
+		"default_title": "Open fav tabs",
+		"default_icon": "icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"manifest_version": 2
+}
